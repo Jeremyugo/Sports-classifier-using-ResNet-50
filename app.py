@@ -1,7 +1,7 @@
 # importing packages
 import streamlit as st
 from sklearn.pipeline import Pipeline
-from keras.models import load_model
+from tensorflow import keras
 from sklearn.preprocessing import FunctionTransformer
 
 # Importing custom function and class
@@ -11,7 +11,7 @@ from functions import preprocess_image, TrainedModelTransformer
 custom_function = FunctionTransformer(preprocess_image)
 
 # loading our model
-model = load_model("sports_classification_model.h5")
+model = keras.models.load_model("sports_classification_model.h5")
 
 # creating our image preprocessing and model pipeline
 model_pipeline = Pipeline([
