@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import numpy as np
-import keras
+from tensorflow import keras
 
 from PIL import Image
 
