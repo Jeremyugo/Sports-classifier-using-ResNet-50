@@ -19,6 +19,21 @@ The [data](https://www.kaggle.com/datasets/gpiosenka/sports-classification) used
 The Images in data were gathered from internet searches. All images were then resized to 224 X224 X 3 and converted to jpg format. 
 <br/>
 
-#### Model Summary & Architecture
+#### Model Architecture
 
 ![model](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/e37a4f8e-ea15-40e0-aaa0-23698bb1e968)
+
+#### Model learning curves
+
+![image](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/c8bb5732-d147-401d-83f6-aacde42b20e8)
+
+#### Model confusion matrix
+![image](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/52bd4151-458c-46a2-9bed-d1ca509447b6)
+
+
+#### Model predictions
+
+![image](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/55b518d6-c5ba-41e5-a55d-18b08d772a11)
+
+#### Wrong model predictions
+![image](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/57782680-1e15-454f-bd38-43c1e6d89f51)
