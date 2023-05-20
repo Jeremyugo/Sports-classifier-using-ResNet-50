@@ -18,3 +18,7 @@ To futher improve the model's accuracy, 65 top layers of the base model (ResNet-
 The [data](https://www.kaggle.com/datasets/gpiosenka/sports-classification) used for this project was gotten from Kaggle. Opendatasets was used to download the data to a local directory.<br/>
 The Images in data were gathered from internet searches. All images were then resized to 224 X224 X 3 and converted to jpg format. 
 <br/>
+
+#### Model Summary & Architecture
+
+![model](https://github.com/Jeremyugo/Sports-classifier-using-ResNet-50/assets/36512525/e37a4f8e-ea15-40e0-aaa0-23698bb1e968)
