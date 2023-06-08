@@ -1,6 +1,6 @@
 ## Sports-classifier-using-ResNet-50 (95% accuracy)
 
-## Note: **The jupyter notebook is large and can;t be rendered by github. A rendered version can be found [here](https://nbviewer.org/github/Jeremyugo/Sports-classifier-using-ResNet-50/blob/main/sports-classification-resnet50-95-acc.ipynb)**
+### Note: **The jupyter notebook is large and can't be rendered by github. A rendered version can be found [here](https://nbviewer.org/github/Jeremyugo/Sports-classifier-using-ResNet-50/blob/main/sports-classification-resnet50-95-acc.ipynb)**
 
 This repository contains a deep learning project where a model was built using the base layers of pre-trained ResNet-50 model. The model was trained on 13,000 images of sports images and achieved an accuracy of 95% on the test set.
 To futher improve the model's accuracy, 65 top layers of the base model (ResNet-50) were set to trainable, and trained using a learning rate lower by a factor of 10 than the initial learning rate.
